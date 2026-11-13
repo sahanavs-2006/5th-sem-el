@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.4988, 12.9238]
+      },
+      "properties": {
+        "category": "water",
+        "code": "W-SAMPLE-01",
+        "department": "BWSSB"
+      }
+    }
+  ]
+}

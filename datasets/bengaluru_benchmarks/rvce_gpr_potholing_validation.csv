@@ -1,0 +1,5 @@
+survey_id,utility_code,category,lat,lon,measured_depth_m,survey_method,antenna_freq_mhz,velocity_m_per_ns,horizontal_uncertainty_m,vertical_uncertainty_m,asce_quality_level,confidence_score,verification_evidence
+RVCE-GPR-001,W-202-GPR,water,12.9237,77.4988,1.5,Ground Penetrating Radar (GPR),400,0.105,0.18,0.12,QL-B,0.91,Hyperbolic reflection matching uPVC dielectric signature
+RVCE-POTH-004,E-315-POTH,electrical,12.9238,77.4988,0.9,Non-Destructive Vacuum Potholing,N/A,N/A,0.06,0.04,QL-A,0.98,Physical visual exposure and laser rangefinder tape measurement
+RVCE-GPR-002,G-104-CHK,gas,12.9237,77.4988,1.04,400 MHz GPR Radargram,400,0.108,0.19,0.14,QL-B,0.89,MDPE boundary echo verified at chainage 0+045
+RVCE-POTH-002,D-405-MH,drainage,12.9235,77.4988,2.4,Direct Manhole Dip Rod,N/A,N/A,0.08,0.05,QL-A,0.97,Invert level confirmed at MH-131-08 rim entry

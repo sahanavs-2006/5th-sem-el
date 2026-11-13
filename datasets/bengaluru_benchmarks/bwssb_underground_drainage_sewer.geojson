@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "dataset_name": "BWSSB Underground Drainage & Manhole Inventory",
+    "department": "Bangalore Water Supply and Sewerage Board (BWSSB)",
+    "source_url": "https://karnataka.gov.in/bwssb/en/sewerage-assets",
+    "geographic_coverage": "Vrishabhavathi & Koramangala-Challaghatta Valleys",
+    "asce_ql_baseline": "QL-C (Surface visible manholes surveyed; underground pipe inferred)",
+    "reliability_weight": 0.79,
+    "access_code": 200,
+    "license": "State Government Public Record",
+    "limitations": "Intermediate pipes assume direct straight connections between manholes; grade slippage unmodeled."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "util-rvce-d01",
+        "code": "D-405",
+        "category": "drainage",
+        "utility_name": "Stormwater & Wastewater Drainage",
+        "department": "BBMP / BWSSB",
+        "corridor_id": "blr-corridor-rvce",
+        "diameter_mm": 600.0,
+        "material": "Spun Reinforced Concrete Pipe (RCC NP3)",
+        "installation_year": 2008,
+        "nominal_depth_m": 2.4,
+        "depth_measurement_status": "measured",
+        "depth_estimation_source": "Physical Invert Level Dip-Measurement at Manhole MH-131-08",
+        "asce_quality_level": "QL-C",
+        "confidence_score": 0.86,
+        "confidence_class": "High",
+        "horizontal_uncertainty_m": 0.3,
+        "vertical_uncertainty_m": 0.18,
+        "manhole_reference": "MH-131-08",
+        "nearest_road": "Mysore Road Boundary Storm Drain Line"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.4974,
+            12.9232
+          ],
+          [
+            77.4988,
+            12.9235
+          ],
+          [
+            77.5003,
+            12.9239
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "util-mg-d01",
+        "code": "D-201-MG",
+        "category": "drainage",
+        "utility_name": "Stormwater & Wastewater Drainage",
+        "department": "BBMP / BWSSB",
+        "corridor_id": "blr-corridor-mgroad",
+        "diameter_mm": 750.0,
+        "material": "Brick Arch & Spun RCC Trunk",
+        "installation_year": 1988,
+        "nominal_depth_m": 2.8,
+        "depth_measurement_status": "measured",
+        "depth_estimation_source": "Physical Invert Level at Manhole MH-CBD-04",
+        "asce_quality_level": "QL-C",
+        "confidence_score": 0.88,
+        "confidence_class": "High",
+        "horizontal_uncertainty_m": 0.35,
+        "vertical_uncertainty_m": 0.2,
+        "manhole_reference": "MH-CBD-04",
+        "nearest_road": "MG Road Median SWD"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6052,
+            12.975
+          ],
+          [
+            77.6067,
+            12.9754
+          ],
+          [
+            77.6082,
+            12.9758
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "util-bl-d01",
+        "code": "D-204-BL",
+        "category": "drainage",
+        "utility_name": "Stormwater & Wastewater Drainage Trunk",
+        "department": "BBMP / BWSSB",
+        "corridor_id": "blr-corridor-bellandur",
+        "diameter_mm": 1200.0,
+        "material": "Precast RCC Twin Box Drain Trunk",
+        "installation_year": 2015,
+        "nominal_depth_m": 2.6,
+        "depth_measurement_status": "measured",
+        "depth_estimation_source": "Bellandur Valley Lake Inlet Stormwater Outfall Survey",
+        "asce_quality_level": "QL-C",
+        "confidence_score": 0.85,
+        "confidence_class": "High",
+        "horizontal_uncertainty_m": 0.32,
+        "vertical_uncertainty_m": 0.2,
+        "manhole_reference": "MH-BLR-01",
+        "nearest_road": "ORR SWD Corridor"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6768,
+            12.9295
+          ],
+          [
+            77.6784,
+            12.9301
+          ],
+          [
+            77.68,
+            12.9307
+          ]
+        ]
+      }
+    }
+  ]
+}

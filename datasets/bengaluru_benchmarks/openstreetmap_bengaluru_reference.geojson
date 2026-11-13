@@ -1,0 +1,73 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "dataset_name": "OpenStreetMap Bengaluru Infrastructure Basemap",
+    "department": "OpenStreetMap Contributors (ODbL)",
+    "source_url": "https://overpass-api.de/api/interpreter",
+    "geographic_coverage": "Bengaluru Metropolitan Region",
+    "asce_ql_baseline": "QL-D (Surface road centerlines and POIs)",
+    "reliability_weight": 0.85,
+    "access_code": 200,
+    "license": "Open Database License (ODbL)",
+    "limitations": "Underground utilities are rarely mapped on OSM; serves as geodetic and surface alignment reference."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R.V. College of Engineering (RVCE Campus)",
+        "amenity": "university",
+        "building": "yes",
+        "city": "Bengaluru"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.496,
+              12.922
+            ],
+            [
+              77.501,
+              12.922
+            ],
+            [
+              77.501,
+              12.926
+            ],
+            [
+              77.496,
+              12.926
+            ],
+            [
+              77.496,
+              12.922
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mysore Road Metro Station (Namma Metro Purple Line)",
+        "railway": "station",
+        "network": "Namma Metro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4995,
+          12.9245
+        ]
+      }
+    }
+  ]
+}
