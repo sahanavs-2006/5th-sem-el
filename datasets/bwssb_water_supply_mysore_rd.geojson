@@ -1,0 +1,186 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "dataset_name": "BWSSB Cauvery Water Supply Network Layers",
+    "department": "Bangalore Water Supply and Sewerage Board (BWSSB)",
+    "source_url": "https://bwssb.karnataka.gov.in/gis-portal",
+    "geographic_coverage": "BBMP Bruhat Bengaluru (800 sq km)",
+    "asce_ql_baseline": "QL-C / QL-D",
+    "reliability_weight": 0.72,
+    "access_code": 403,
+    "license": "Government of Karnataka Proprietary",
+    "limitations": "Burial depth is unrecorded in vector attributes; coordinates derive from digitized road centerlines without geodetic control."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "util-rvce-w01",
+        "code": "W-201",
+        "category": "water",
+        "utility_name": "Potable Water Supply Network",
+        "department": "BWSSB",
+        "corridor_id": "blr-corridor-rvce",
+        "diameter_mm": 450.0,
+        "material": "Ductile Iron (K9 Class)",
+        "installation_year": 2012,
+        "nominal_depth_m": 1.82,
+        "depth_measurement_status": "inferred",
+        "depth_estimation_source": "IRC:98-2011 Prior (Urban Water Mains Minimum Cover)",
+        "asce_quality_level": "QL-C",
+        "confidence_score": 0.74,
+        "confidence_class": "Medium",
+        "horizontal_uncertainty_m": 0.65,
+        "vertical_uncertainty_m": 0.35,
+        "pressure_bar": 3.8,
+        "nearest_road": "Mysore Road (SH-17) North Footpath"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.4975,
+            12.9234
+          ],
+          [
+            77.4988,
+            12.9238
+          ],
+          [
+            77.5002,
+            12.9242
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "util-mg-w01",
+        "code": "W-101-MG",
+        "category": "water",
+        "utility_name": "Potable Water Supply Network",
+        "department": "BWSSB",
+        "corridor_id": "blr-corridor-mgroad",
+        "diameter_mm": 400.0,
+        "material": "Cast Iron (CI Spun Pipe)",
+        "installation_year": 1994,
+        "nominal_depth_m": 1.75,
+        "depth_measurement_status": "inferred",
+        "depth_estimation_source": "IRC:98-2011 Prior (Urban Water Mains Minimum Cover)",
+        "asce_quality_level": "QL-C",
+        "confidence_score": 0.76,
+        "confidence_class": "Medium",
+        "horizontal_uncertainty_m": 0.6,
+        "vertical_uncertainty_m": 0.32,
+        "pressure_bar": 3.2,
+        "nearest_road": "MG Road Northern Carriageway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.605,
+            12.9752
+          ],
+          [
+            77.6067,
+            12.9756
+          ],
+          [
+            77.6085,
+            12.976
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "util-km-w01",
+        "code": "W-102-KM",
+        "category": "water",
+        "utility_name": "Potable Water Supply Network",
+        "department": "BWSSB",
+        "corridor_id": "blr-corridor-koramangala",
+        "diameter_mm": 300.0,
+        "material": "Ductile Iron (K9 Class)",
+        "installation_year": 2014,
+        "nominal_depth_m": 1.65,
+        "depth_measurement_status": "inferred",
+        "depth_estimation_source": "IRC:98-2011 Prior (Urban Water Mains Minimum Cover)",
+        "asce_quality_level": "QL-C",
+        "confidence_score": 0.78,
+        "confidence_class": "Medium",
+        "horizontal_uncertainty_m": 0.55,
+        "vertical_uncertainty_m": 0.3,
+        "pressure_bar": 3.5,
+        "nearest_road": "Koramangala 100ft Road East Footpath"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.623,
+            12.9348
+          ],
+          [
+            77.6245,
+            12.9352
+          ],
+          [
+            77.626,
+            12.9356
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "util-bl-w01",
+        "code": "W-104-BL",
+        "category": "water",
+        "utility_name": "Potable Water Bulk Transmission Main",
+        "department": "BWSSB",
+        "corridor_id": "blr-corridor-bellandur",
+        "diameter_mm": 600.0,
+        "material": "Mild Steel (MS Mortar Lined Bulk Transmission Main)",
+        "installation_year": 2018,
+        "nominal_depth_m": 2.1,
+        "depth_measurement_status": "measured",
+        "depth_estimation_source": "Metro Phase 2A Alignment Utility Conflict Survey (QL-B)",
+        "asce_quality_level": "QL-B",
+        "confidence_score": 0.89,
+        "confidence_class": "High",
+        "horizontal_uncertainty_m": 0.25,
+        "vertical_uncertainty_m": 0.15,
+        "pressure_bar": 6.0,
+        "nearest_road": "ORR Service Road North"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6765,
+            12.9298
+          ],
+          [
+            77.6784,
+            12.9304
+          ],
+          [
+            77.6803,
+            12.931
+          ]
+        ]
+      }
+    }
+  ]
+}

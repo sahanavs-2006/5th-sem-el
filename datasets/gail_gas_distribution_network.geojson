@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "dataset_name": "GAIL Gas City Gas Distribution Pipeline Alignment",
+    "department": "GAIL Gas Limited (Bengaluru CGD Project)",
+    "source_url": "https://gailgas.com/bengaluru-network-map",
+    "geographic_coverage": "Bengaluru Urban Geographical Area (GA)",
+    "asce_ql_baseline": "QL-D (As-laid alignment drawings)",
+    "reliability_weight": 0.81,
+    "access_code": 403,
+    "license": "GAIL Corporate Infrastructure Record",
+    "limitations": "Steel and MDPE pipelines mapped along road rights-of-way; depth deviations due to culvert crossings unverified."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "util-rvce-g01",
+        "code": "G-104",
+        "category": "gas",
+        "utility_name": "Natural Gas Distribution",
+        "department": "GAIL Gas Limited",
+        "corridor_id": "blr-corridor-rvce",
+        "diameter_mm": 125.0,
+        "material": "MDPE (PE 100 Medium Density Polyethylene)",
+        "installation_year": 2018,
+        "nominal_depth_m": 1.02,
+        "depth_measurement_status": "inferred",
+        "depth_estimation_source": "PNGRB T4S Standard Cover (1.0m beneath paved berm)",
+        "asce_quality_level": "QL-D",
+        "confidence_score": 0.61,
+        "confidence_class": "Medium",
+        "horizontal_uncertainty_m": 0.85,
+        "vertical_uncertainty_m": 0.4,
+        "pressure_bar": 4.0,
+        "nearest_road": "Mysore Road Utility Duct"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.4973,
+            12.9233
+          ],
+          [
+            77.4988,
+            12.9237
+          ],
+          [
+            77.5005,
+            12.9241
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "util-mg-g01",
+        "code": "G-401-MG",
+        "category": "gas",
+        "utility_name": "Natural Gas Distribution",
+        "department": "GAIL Gas Limited",
+        "corridor_id": "blr-corridor-mgroad",
+        "diameter_mm": 160.0,
+        "material": "MDPE (PE 100 Medium Density Polyethylene)",
+        "installation_year": 2019,
+        "nominal_depth_m": 1.05,
+        "depth_measurement_status": "inferred",
+        "depth_estimation_source": "PNGRB T4S Standard Cover (1.0m beneath paved berm)",
+        "asce_quality_level": "QL-D",
+        "confidence_score": 0.68,
+        "confidence_class": "Medium",
+        "horizontal_uncertainty_m": 0.75,
+        "vertical_uncertainty_m": 0.35,
+        "pressure_bar": 4.0,
+        "nearest_road": "MG Road Footpath Edge"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6048,
+            12.9751
+          ],
+          [
+            77.6067,
+            12.9755
+          ],
+          [
+            77.6086,
+            12.9759
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "util-bl-g01",
+        "code": "G-404-BL",
+        "category": "gas",
+        "utility_name": "Natural Gas Distribution Trunk",
+        "department": "GAIL Gas Limited",
+        "corridor_id": "blr-corridor-bellandur",
+        "diameter_mm": 200.0,
+        "material": "Carbon Steel API 5L Grade B with 3LPE Coating",
+        "installation_year": 2020,
+        "nominal_depth_m": 1.35,
+        "depth_measurement_status": "measured",
+        "depth_estimation_source": "Horizontal Directional Drilling (HDD) Bore Log Chart",
+        "asce_quality_level": "QL-B",
+        "confidence_score": 0.9,
+        "confidence_class": "High",
+        "horizontal_uncertainty_m": 0.2,
+        "vertical_uncertainty_m": 0.12,
+        "pressure_bar": 19.0,
+        "nearest_road": "ORR Central Median Underpass"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6766,
+            12.9299
+          ],
+          [
+            77.6784,
+            12.9305
+          ],
+          [
+            77.6802,
+            12.9311
+          ]
+        ]
+      }
+    }
+  ]
+}
