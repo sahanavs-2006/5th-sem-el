@@ -32,12 +32,7 @@ All cryptic hash / UUID file names have been systematically mapped and renamed b
 
 ---
 
-## 📁 Backup Folder (`duplicates_backup/`)
+## 🧹 Duplicate File Cleanup
+All duplicate copies created by repeated browser downloads have been purged. Only canonical, validated original dataset files are retained.
 
-Five exact duplicate copies created during browser downloads have been safely relocated into the `duplicates_backup/` subfolder with clear naming:
-- `BWSSB_Sewerage_Lines_Up_To_300mm_Diameter_Map_Copy2.pdf`
-- `BWSSB_Water_Supply_Lines_Above_300mm_Diameter_Copy2.kml`
-- `BWSSB_Water_Supply_Lines_Above_300mm_Diameter_Map_Copy2.pdf`
-- `BWSSB_Water_Supply_Lines_Up_To_300mm_Diameter_Copy2.kml`
-- `BWSSB_Water_Supply_Lines_Up_To_300mm_Diameter_Map_Copy2.pdf`
 
