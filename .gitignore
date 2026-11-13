@@ -42,3 +42,7 @@ pnpm-debug.log*
 # Optional local test scripts
 *.tmp
 
+# Large raw geojson (>100MB exceeds GitHub push limit, preserved locally and in .zip)
+datasets 5th sem el/*.geojson
+
+
