@@ -222,22 +222,14 @@ def list_dataset_files():
 @app.get("/api/datasets/download-all")
 def download_all_datasets():
     datasets_base = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "datasets"))
-    zip_bundle_path = os.path.join(datasets_base, "bengaluru_underground_datasets_bundle.zip")
+    zip_bundle_path = os.path.join(datasets_base, "bengaluru_infrastructure_datasets.zip")
     if not os.path.exists(zip_bundle_path):
-        import zipfile
-        with zipfile.ZipFile(zip_bundle_path, "w", zipfile.ZIP_DEFLATED) as zipf:
-            for root, dirs, files in os.walk(datasets_base):
-                for file in files:
-                    if file.endswith(".zip"):
-                        continue
-                    full_path = os.path.join(root, file)
-                    rel_path = os.path.relpath(full_path, datasets_base)
-                    zipf.write(full_path, rel_path)
+        zip_bundle_path = os.path.join(datasets_base, "bengaluru_underground_datasets_bundle.zip")
     from fastapi.responses import FileResponse
     return FileResponse(
         zip_bundle_path,
         media_type="application/zip",
-        filename="bengaluru_underground_datasets_bundle.zip"
+        filename="bengaluru_infrastructure_datasets.zip"
     )
 
 @app.get("/api/utilities")
